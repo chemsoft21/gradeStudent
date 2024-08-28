@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Grade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        input {
+            margin: 10px 0;
+        }
+        button {
+            margin: 20px 0;
+        }
+        #checkGradeBtn{
+            color: rgb(234, 234, 242);
+            border-radius: 20px;
+            background-color: brown;
+            padding: 5px;
+        }
+
+        #checkGradeBtn:hover{
+            background-color: blueviolet;
+            color: blue;
+            border: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Grade </h1>
+    <label for="scoreInput">Enter Student Score: </label>
+    <input type="number" id="scoreInput" min="0" max="100" placeholder="Enter Student Score">
+    <button id="checkGradeBtn">Check Grade</button>
+    <p>The result is... </p>
+    <p id="result" style="color: blue;"> </p>
+
+   <script type="text/javascript" src="grade.js"></script> 
+</body>
+</html>
